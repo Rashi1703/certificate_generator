@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size:2.5rem;
+}
+#p1{
+    font-size: 2rem;
+}
+#p2{
+    font-size: 1.5rem;
+}
+#p3{
+    font-size: 1.75rem;
+}
+div{
+    display: inline;
+}
+
+.headermain{
+    background-color: rgba(170, 211, 196, 0.599);
+    background-image: url(headback.png);
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    background-size: 300px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.Main{
+    margin-top: 15px;
+    justify-content: space-between;
+    margin:10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 30px;
+}
+ul{
+    list-style: none;
+}
+.nav-links ul{ 
+    flex-basis: 730px;
+    gap: 40px;
+} 
+.hover-links{
+    color: rgb(0, 0, 0);
+}
+.hover-links:hover{
+    color: rgb(84, 76, 230);
+}
+.first{
+    font-size: 20px;
+    padding: 15px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: rgb(195, 198, 216);
+    border-style: solid;
+}
+.first:hover{
+    padding: 15px;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: rgb(96, 137, 162);
+    border-style: solid;
+}
+.second{
+    border-width: 2px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(46, 84, 139, 0.781);
+    padding: 15px;
+}
+.second:hover{   
+    border-width: 2px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(86, 121, 250, 0.781);
+    padding: 15px;
+}
+
+.sec1{
+    margin-top: 8px;
+    text-align: center;
+    
+}
+.button{
+    line-height: 1.5em;
+    border: 2px solid #000;
+    padding: 20px 45px;
+    font-size: 1.8em;
+    font-weight: bold;
+    box-shadow: 3px 3px 0 #000;
+    border-radius: 5px;
+    background: #69cf95;
+    color: #000;
+    /* display: inline-block; */
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #74d89fcd;
+}
+input{
+    font-size: 2rem;
+}
+#name_lbl{
+    font-size: 2.5rem;
+}
+#canvas{
+    margin-left: 16%;
+    margin-top: 8%;
+}
+.certi-al{
+    
+}
+.sc{
+    margin-left: 35%;
+
+margin-top: 6%;
+}
